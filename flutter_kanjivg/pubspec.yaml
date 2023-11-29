@@ -3,6 +3,10 @@ description: Flutter widgets that simplify displaying data from the Kanji Vector
 version: 0.0.1
 repository: https://github.com/n-bernat/kanjivg
 issue_tracker: https://github.com/n-bernat/kanjivg/issues
+documentation: https://kanjivg.tagaini.net/index.html
+screenshots:
+  - description: Preview of the animated character.
+    path: screenshots/screenshot.webp
 
 environment:
   sdk: ">=3.1.0 <4.0.0"
