@@ -4,9 +4,6 @@ version: 0.0.1
 repository: https://github.com/n-bernat/kanjivg
 issue_tracker: https://github.com/n-bernat/kanjivg/issues
 
-# Temporary until `kanjivg` package is published
-publish_to: none
-
 environment:
   sdk: ">=3.1.0 <4.0.0"
   flutter: ">=3.10.0"
@@ -14,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kanjivg:
-    path: ../kanjivg
+  kanjivg: ^0.0.1
+  vector_graphics_compiler: ^1.1.6
 
 dev_dependencies:
   flutter_test:
