@@ -2,6 +2,7 @@
 
 [![Publisher](https://img.shields.io/pub/publisher/kanjivg.svg)](https://pub.dev/packages/kanjivg/publisher)
 [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/n-bernat/kanjivg/graph/badge.svg?token=VDZJJ9TMAL)](https://codecov.io/gh/n-bernat/kanjivg)
 
 | `kanjivg`                                                                                                                                                                       | `flutter_kanjivg`                                                                                                                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
