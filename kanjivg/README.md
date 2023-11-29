@@ -49,7 +49,7 @@ void main() {
   const source = '<?xml version="1.0" encoding="UTF-8"?> ... </svg>';
   const parser = KanjiParser();
 
-  //  Returns an instance of `KvgData` with `id`, `character`, `radicals` and `strokes`.
+  // Returns an instance of `KvgData` with `id`, `character`, `radicals` and `strokes`.
   final data = parser.parse(source);
 }
 ```
