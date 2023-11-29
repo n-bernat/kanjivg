@@ -43,8 +43,10 @@ jobs:
       - name: Run tests
         run: flutter test --coverage .
 
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-          files: ./test/flutter_kanjivg_test.dart.vm.json
+      - name: Generate .lcov file
+        run: |
+          dart pub global activate coverage
+          format_coverage --lcov --in=coverage --out=coverage.lcov --packages=.dart_tool/package_config.json --report-on=lib
+
+      - name: Upload coverage
+        run: curl -s https://codecov.io/bash | bash
