@@ -13,6 +13,8 @@
 
 > Those packages are neither supported nor related to the creators of the KanjiVG project.
 
+Some parts of comments in this library may consist of descriptions from the original KanjiVG website which is licensed under the [Creative Commons Attribution-Share Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0) license.
+
 ## Documentation
 
 - [kanjivg](https://github.com/n-bernat/kanjivg/tree/master/kanjivg)
