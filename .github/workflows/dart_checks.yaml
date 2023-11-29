@@ -40,7 +40,7 @@ jobs:
         run: dart analyze
 
       - name: Run tests
-        run: dart test
+        run: dart test --coverage .
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
