@@ -25,7 +25,7 @@ and the Flutter guide for
 
 ```yaml
 dependencies:
-  kanjivg: ^0.0.1
+  kanjivg: latest_version
 ```
 
 2. Get the dependencies.
