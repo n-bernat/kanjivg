@@ -189,7 +189,9 @@ class _KanjiPainter extends CustomPainter {
     }
 
     // Draw it on a canvas.
-    canvas.drawPath(path, paint);
+    if (controller.value != 0) {
+      canvas.drawPath(path, paint);
+    }
   }
 
   @override
