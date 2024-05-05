@@ -1,10 +1,7 @@
-import 'dart:ui' as ui;
-
 import 'package:flutter/widgets.dart';
+import 'package:flutter_kanjivg/src/extensions/kvg_data_extension.dart';
 import 'package:flutter_kanjivg/src/kanji_controller.dart';
 import 'package:kanjivg/kanjivg.dart';
-import 'package:vector_graphics_compiler/vector_graphics_compiler.dart'
-    as compiler;
 
 /// A widget that provides a canvas on which to draw a kanji character.
 ///
@@ -72,36 +69,6 @@ class _KanjiPainter extends CustomPainter {
   final Color color;
   final Color? hintColor;
 
-  ui.Path? createPath() {
-    final paths = controller.data?.paths;
-    if (paths == null) {
-      return null;
-    }
-
-    final path = ui.Path();
-    for (final data in paths) {
-      final pathData = compiler.parseSvgPathData(data);
-      for (final command in pathData.commands) {
-        if (command is compiler.LineToCommand) {
-          path.lineTo(command.x, command.y);
-        } else if (command is compiler.MoveToCommand) {
-          path.moveTo(command.x, command.y);
-        } else if (command is compiler.CubicToCommand) {
-          path.cubicTo(
-            command.x1,
-            command.y1,
-            command.x2,
-            command.y2,
-            command.x3,
-            command.y3,
-          );
-        }
-      }
-    }
-
-    return path;
-  }
-
   Path createAnimatedPath(Path path, double progress) {
     final totalLength = path
         .computeMetrics()
@@ -147,10 +114,7 @@ class _KanjiPainter extends CustomPainter {
     }
 
     // Create a path based on SVG paths.
-    final basePath = createPath();
-    if (basePath == null) {
-      return;
-    }
+    final basePath = data.createPath();
 
     // Initialize Paint with custom settings.
     final paint = Paint()

@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Implemented `drawTo` method.
+
 ## 0.0.2
 
 - Added a screenshot.
