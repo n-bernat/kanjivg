@@ -1,0 +1,22 @@
+name: example
+description: "Example project for the flutter_kanjivg package."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_kanjivg:
+    path: ../../flutter_kanjivg
+
+dev_dependencies:
+  leancode_lint: ^13.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/0548c.svg
