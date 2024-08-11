@@ -3,10 +3,10 @@
 [![Publisher](https://img.shields.io/pub/publisher/kanjivg.svg)](https://pub.dev/packages/kanjivg/publisher)
 [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/n-bernat/kanjivg/graph/badge.svg?token=VDZJJ9TMAL)](https://codecov.io/gh/n-bernat/kanjivg)
-
-|                                                                                    `kanjivg`                                                                                    |                                                                                       `flutter_kanjivg`                                                                                       |
+[![LeanCode Style](https://img.shields.io/badge/style-leancode__lint-black)](https://pub.dartlang.org/packages/leancode_lint)
+| `kanjivg` | `flutter_kanjivg` |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                            [![Package](https://img.shields.io/pub/v/kanjivg.svg)](https://pub.dev/packages/kanjivg)                                             |                                           [![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg)                                            |
+| [![Package](https://img.shields.io/pub/v/kanjivg.svg)](https://pub.dev/packages/kanjivg) | [![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg) |
 | [![kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml) | [![flutter_kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml) |
 
 `kanjivg` and `flutter_kanjivg` provide a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net).

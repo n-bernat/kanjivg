@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # kanjivg
 
-[![Package](https://img.shields.io/pub/v/kanjivg.svg)](https://pub.dev/packages/kanjivg) [![Publisher](https://img.shields.io/pub/publisher/kanjivg.svg)](https://pub.dev/packages/kanjivg/publisher) [![kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml) [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+[![Package](https://img.shields.io/pub/v/kanjivg.svg)](https://pub.dev/packages/kanjivg) [![Publisher](https://img.shields.io/pub/publisher/kanjivg.svg)](https://pub.dev/packages/kanjivg/publisher) [![kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml) [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT) [![LeanCode Style](https://img.shields.io/badge/style-leancode__lint-black)](https://pub.dartlang.org/packages/leancode_lint)
 
 `kanjivg` provides a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net). This package is a pure Dart implementation of a parser for SVG files with extensions added by the maintainers of KanjiVG. It provides metadata like stroke count, original radical forms (e.g. 人 for 亻), position of radicals and more.
 
