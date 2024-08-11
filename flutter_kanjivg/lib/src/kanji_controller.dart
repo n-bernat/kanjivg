@@ -27,17 +27,16 @@ class KanjiController extends AnimationController {
   bool _isPlaying;
 
   /// Toggle the current state.
-  void toggle() {
+  @override
+  TickerFuture toggle({double? from}) {
     if (isCompleted) {
       reset();
-      forward();
-    } else {
-      if (_isPlaying) {
-        stop();
-      } else {
-        forward();
-      }
+    } else if (_isPlaying) {
+      stop();
+      return TickerFuture.complete();
     }
+
+    return forward(from: from);
   }
 
   /// May throw an exception if you provide invalid `data`.
