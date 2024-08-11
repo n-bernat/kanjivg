@@ -19,7 +19,7 @@ Some parts of comments in this library may consist of descriptions from the orig
 
 - [kanjivg](https://github.com/n-bernat/kanjivg/tree/master/kanjivg)
 
-  Base parser for SVG files from the KanjiVG project. Provides metadata like stroke count, original radical forms (e.g. 人 for 亻), position of radicals and more.
+  Base parser for SVG files from the KanjiVG project. Provides metadata like stroke count, original radical forms (e.g. 人 for 亻), the position of radicals and more.
 
 - [flutter_kanjivg](https://github.com/n-bernat/kanjivg/tree/master/flutter_kanjivg)
 
@@ -27,8 +27,8 @@ Some parts of comments in this library may consist of descriptions from the orig
 
 ## Version constraints
 
-- Dart >= 3.1.0
-- Flutter >= 3.10.0
+- Dart >= 3.5.0
+- Flutter >= 3.24.0
 
 ## Maintainers
 

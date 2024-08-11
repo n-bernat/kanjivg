@@ -5,11 +5,12 @@ repository: https://github.com/n-bernat/kanjivg
 issue_tracker: https://github.com/n-bernat/kanjivg/issues
 
 environment:
-  sdk: ">=3.1.0 <4.0.0"
+  sdk: ">=3.5.0 <4.0.0"
 
 dependencies:
   collection: ^1.17.0
   xml: ^6.3.0
 
 dev_dependencies:
+  leancode_lint: ^13.0.0
   test: ^1.24.9

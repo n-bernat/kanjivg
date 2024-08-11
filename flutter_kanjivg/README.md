@@ -15,7 +15,7 @@ and the Flutter guide for
 
 [![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg) [![Publisher](https://img.shields.io/pub/publisher/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg/publisher) [![flutter_kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml) [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-`flutter_kanjivg` provides a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net). This package contains a parser for SVG files with extensions added by the maintainers of KanjiVG and Flutter widgets that simplify displaying animated kanji. It also provides metadata like stroke count, original radical forms (e.g. 人 for 亻), position of radicals and more.
+`flutter_kanjivg` provides a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net). This package contains a parser for SVG files with extensions added by the maintainers of KanjiVG and Flutter widgets that simplify displaying animated kanji. It also provides metadata like stroke count, original radical forms (e.g. 人 for 亻), the position of radicals and more.
 
 > This package is neither supported nor related to the creators of the KanjiVG project.
 
@@ -102,7 +102,7 @@ class _KanjiPageState extends State<KanjiPage> with TickerProviderStateMixin {
 
 ## Additional information
 
-- This package requires at least Flutter 3.10 to work.
+- This package requires at least Flutter 3.24 to work.
 - If there are any issues feel free to go to [GitHub Issues](https://github.com/n-bernat/kanjivg/issues) and report a bug.
 
 ## Maintainers
