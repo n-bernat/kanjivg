@@ -1,6 +1,6 @@
 name: kanjivg
 description: Dart implementation of a parser for resources from the Kanji Vector Graphics project.
-version: 0.0.1
+version: 0.1.0
 repository: https://github.com/n-bernat/kanjivg
 issue_tracker: https://github.com/n-bernat/kanjivg/issues
 

@@ -1,6 +1,6 @@
 name: flutter_kanjivg
 description: Flutter widgets that simplify displaying data from the Kanji Vector Graphics project. Built on the top of `kanjivg` package.
-version: 0.0.3
+version: 0.1.0
 repository: https://github.com/n-bernat/kanjivg
 issue_tracker: https://github.com/n-bernat/kanjivg/issues
 documentation: https://kanjivg.tagaini.net/index.html
@@ -15,7 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kanjivg: ^0.0.1
+  kanjivg: ^0.1.0
   vector_graphics_compiler: ^1.1.6
 
 dev_dependencies:

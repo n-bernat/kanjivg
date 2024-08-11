@@ -56,7 +56,7 @@ void main() {
 
 ## Additional information
 
-- This package requires at least Dart 3.1 to work.
+- This package requires at least Dart 3.5 to work.
 - If there are any issues feel free to go to [GitHub Issues](https://github.com/n-bernat/kanjivg/issues) and report a bug.
 
 ## Maintainers
