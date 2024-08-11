@@ -1,6 +1,8 @@
 name: flutter_kanjivg - Checks
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
   pull_request:
     paths:
       - "flutter_kanjivg/**"
