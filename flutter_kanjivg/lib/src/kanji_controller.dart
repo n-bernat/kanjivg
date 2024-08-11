@@ -16,22 +16,18 @@ class KanjiController extends AnimationController {
   KanjiController({
     required super.vsync,
     super.duration = const Duration(seconds: 5),
-  }) : _isPlaying = false;
+  });
 
   /// Currently loaded kanji character.
   KvgData? get data => _data;
   KvgData? _data;
-
-  /// Whether the drawing animation is currently playing.
-  bool get isPlaying => _isPlaying;
-  bool _isPlaying;
 
   /// Toggle the current state.
   @override
   TickerFuture toggle({double? from}) {
     if (isCompleted) {
       reset();
-    } else if (_isPlaying) {
+    } else if (isAnimating) {
       stop();
       return TickerFuture.complete();
     }
@@ -50,11 +46,8 @@ class KanjiController extends AnimationController {
 
   @override
   TickerFuture forward({double? from}) {
-    final future = super.forward(from: from);
-    _isPlaying = true;
     notifyListeners();
-
-    return future;
+    return super.forward(from: from);
   }
 
   /// Draw the character to a specific stroke.
@@ -98,18 +91,14 @@ class KanjiController extends AnimationController {
 
   @override
   TickerFuture reverse({double? from}) {
-    final future = super.reverse(from: from);
-    _isPlaying = true;
     notifyListeners();
-
-    return future;
+    return super.reverse(from: from);
   }
 
   @override
   void stop({bool canceled = true}) {
-    _isPlaying = false;
     notifyListeners();
 
-    super.stop(canceled: canceled);
+    return super.stop(canceled: canceled);
   }
 }

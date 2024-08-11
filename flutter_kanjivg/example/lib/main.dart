@@ -3,8 +3,8 @@ import 'package:flutter_kanjivg/flutter_kanjivg.dart';
 
 void main() {
   return runApp(
-    MaterialApp(
-      home: const ExamplePage(),
+    const MaterialApp(
+      home: ExamplePage(),
     ),
   );
 }
@@ -20,7 +20,7 @@ class _ExamplePageState extends State<ExamplePage>
     with TickerProviderStateMixin {
   late final KanjiController controller = KanjiController(
     vsync: this,
-    duration: const Duration(seconds: 5),
+    duration: const Duration(seconds: 3),
   );
 
   @override
@@ -52,7 +52,7 @@ class _ExamplePageState extends State<ExamplePage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('flutter_kanjivg'),
+        title: const Text('flutter_kanjivg'),
       ),
       body: Center(
         child: Card(
@@ -68,7 +68,7 @@ class _ExamplePageState extends State<ExamplePage>
         onPressed: controller.toggle,
         child: ListenableBuilder(
           listenable: controller,
-          builder: (context, child) => controller.isPlaying
+          builder: (context, child) => controller.isAnimating
               ? const Icon(Icons.pause)
               : const Icon(Icons.play_arrow),
         ),
