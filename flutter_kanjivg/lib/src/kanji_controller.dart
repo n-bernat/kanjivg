@@ -98,7 +98,6 @@ class KanjiController extends AnimationController {
   @override
   void stop({bool canceled = true}) {
     notifyListeners();
-
     return super.stop(canceled: canceled);
   }
 }
