@@ -2,12 +2,13 @@
 
 [![Publisher](https://img.shields.io/pub/publisher/kanjivg.svg)](https://pub.dev/packages/kanjivg/publisher)
 [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/n-bernat/kanjivg/graph/badge.svg?token=VDZJJ9TMAL)](https://codecov.io/gh/n-bernat/kanjivg)
 [![LeanCode Style](https://img.shields.io/badge/style-leancode__lint-black)](https://pub.dartlang.org/packages/leancode_lint)
-| `kanjivg` | `flutter_kanjivg` |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![Package](https://img.shields.io/pub/v/kanjivg.svg)](https://pub.dev/packages/kanjivg) | [![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg) |
-| [![kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/dart_checks.yaml) | [![flutter_kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml) |
+
+|                                                                                    Status                                                                                     |               Comments               |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------: |
+| [![Tests (stable)](https://github.com/n-bernat/kanjivg/actions/workflows/test_stable.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_stable.yaml) |    Current stable Flutter version    |
+|    [![Tests (beta)](https://github.com/n-bernat/kanjivg/actions/workflows/test_beta.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_beta.yaml)    |     Current beta Flutter version     |
+|    [![Tests (3.24.0)](https://github.com/n-bernat/kanjivg/actions/workflows/test_min.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_min.yaml)    | The oldest supported Flutter version |
 
 `kanjivg` and `flutter_kanjivg` provide a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net).
 

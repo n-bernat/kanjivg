@@ -13,9 +13,15 @@ and the Flutter guide for
 
 # flutter_kanjivg
 
-[![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg) [![Publisher](https://img.shields.io/pub/publisher/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg/publisher) [![flutter_kanjivg - Checks](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/flutter_checks.yaml) [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT) [![LeanCode Style](https://img.shields.io/badge/style-leancode__lint-black)](https://pub.dartlang.org/packages/leancode_lint)
+[![Package](https://img.shields.io/pub/v/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg) [![Publisher](https://img.shields.io/pub/publisher/flutter_kanjivg.svg)](https://pub.dev/packages/flutter_kanjivg/publisher) [![MIT License](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT) [![LeanCode Style](https://img.shields.io/badge/style-leancode__lint-black)](https://pub.dartlang.org/packages/leancode_lint)
 
 `flutter_kanjivg` provides a simple way of interacting with data from the [KanjiVG (Kanji Vector Graphics) project](https://kanjivg.tagaini.net). This package contains a parser for SVG files with extensions added by the maintainers of KanjiVG and Flutter widgets that simplify displaying animated kanji. It also provides metadata like stroke count, original radical forms (e.g. 人 for 亻), the position of radicals and more.
+
+|                                                                                    Status                                                                                     |               Comments               |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------: |
+| [![Tests (stable)](https://github.com/n-bernat/kanjivg/actions/workflows/test_stable.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_stable.yaml) |    Current stable Flutter version    |
+|    [![Tests (beta)](https://github.com/n-bernat/kanjivg/actions/workflows/test_beta.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_beta.yaml)    |     Current beta Flutter version     |
+|    [![Tests (3.24.0)](https://github.com/n-bernat/kanjivg/actions/workflows/test_min.yaml/badge.svg)](https://github.com/n-bernat/kanjivg/actions/workflows/test_min.yaml)    | The oldest supported Flutter version |
 
 > This package is neither supported nor related to the creators of the KanjiVG project.
 

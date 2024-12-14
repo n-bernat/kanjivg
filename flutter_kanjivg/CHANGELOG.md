@@ -1,5 +1,6 @@
 ## Unreleased (2024-12-14)
 
+- Updated CI pipeline.
 - Updated dependencies.
 
 ## 0.1.0
