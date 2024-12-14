@@ -1,0 +1,22 @@
+name: Tag packages
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - kanjivg/CHANGELOG.md
+      - flutter_kanjivg/CHANGELOG.md
+
+jobs:
+  publish:
+    name: Tag packages
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Tag packages
+        uses: n-bernat/flutter-tools/packages/tag@master
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}

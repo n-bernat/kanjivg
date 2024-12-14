@@ -1,0 +1,17 @@
+name: Publish packages
+on:
+  push:
+    tags: ["*"]
+
+jobs:
+  publish:
+    name: Publish packages
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Publish packages
+        uses: n-bernat/flutter-tools/packages/publish@master

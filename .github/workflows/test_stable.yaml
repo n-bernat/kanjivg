@@ -1,0 +1,14 @@
+name: Test packages (stable)
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Test packages (stable)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test packages
+        uses: n-bernat/flutter-tools/packages/test@master

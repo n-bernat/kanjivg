@@ -77,7 +77,7 @@ class KanjiController extends AnimationController {
         path.drawCommands(commands);
       }
 
-      // FIXME: This 0.1 is a random number to make it work, but it's not accurate
+      // TODO: This 0.1 is a random number to make it work, but it's not accurate
       // nor the best solution.
       return path.computeLength() - 0.1;
     }();
