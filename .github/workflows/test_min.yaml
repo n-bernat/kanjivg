@@ -1,0 +1,17 @@
+name: Test packages (3.24)
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Test packages (3.24)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test packages
+        uses: n-bernat/flutter-tools/packages/test@master
+        with:
+          version: "3.24.5"
+          custom-lint: true

@@ -16,6 +16,11 @@ jobs:
       contents: write
 
     steps:
+      - name: Test packages
+        uses: n-bernat/flutter-tools/packages/test@master
+        with:
+          custom-lint: true
+
       - name: Tag packages
         uses: n-bernat/flutter-tools/packages/tag@master
         with:

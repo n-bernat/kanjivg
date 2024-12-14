@@ -1,0 +1,17 @@
+name: Test packages (beta)
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Test packages (beta)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test packages
+        uses: n-bernat/flutter-tools/packages/test@master
+        with:
+          channel: "beta"
+          custom-lint: true
